@@ -31,21 +31,27 @@ export default function OversigtScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F9FAFB', // lys neutral baggrund
     alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: 40,
+    justifyContent: 'flex-start',
+    paddingTop: 60,
   },
   header: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 20,
+    fontSize: 24,
+    fontWeight: '700',
+    color: '#111827', // mørkere grå for bedre kontrast
+    marginBottom: 24,
   },
   listContainer: {
-    height: 300,
-    backgroundColor: 'lightgrey',
-    borderRadius: 10,
-    width: '80%',
-    padding: 10,
+    height: 320,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 16,
+    width: '85%',
+    padding: 16,
+    shadowColor: '#000', // let skygge for "kort"-look
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: 4, // Android skygge
   },
 });
