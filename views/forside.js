@@ -15,7 +15,7 @@ const Forside = () => {
     );
 };
 
-// design af forside 
+// Jeg prøvede at lave et separate stylesheet, men det virkede ikke, så jeg har lavet det her i samme fil
 const styles = StyleSheet.create({
   container: {
     flex: 1,

@@ -11,6 +11,7 @@ export default function CustomButton({ title, onPress }) {
   );
 }
 
+// Jeg prøvede at lave et separate stylesheet, men det virkede ikke, så jeg har lavet det her i samme fil
 const styles = StyleSheet.create({
   button: {
     alignItems: 'center',

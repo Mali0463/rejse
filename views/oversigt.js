@@ -11,9 +11,9 @@ export default function OversigtScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Udvekslingslande</Text>
-      
+  
       <View style={styles.listContainer}>
-        <ScrollView>
+        <ScrollView> //ScrollView bruges til at gøre det muligt at scrolle gennem listen af lande
           {COUNTRIES.map((country, index) => (
             <ListButton
             key={index}
@@ -27,7 +27,7 @@ export default function OversigtScreen() {
   );
 }
 
-//design af Oversigt.js view
+// Jeg prøvede at lave et separate stylesheet, men det virkede ikke, så jeg har lavet det her i samme fil
 const styles = StyleSheet.create({
   container: {
     flex: 1,
