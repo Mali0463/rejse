@@ -6,7 +6,7 @@ export default function Review({ route }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Detaljer om landet</Text>
+      <Text style={styles.title}>Detaljer om landet</Text>  
       {country ? (
         <Text style={styles.country}>{country} er et godt udvekslingsland! Maden er god og menneskerne er søde</Text>
       ) : (
